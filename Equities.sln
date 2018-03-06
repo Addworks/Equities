@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquitiesIntegration", "Equi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquitiesIntegration.Test", "EquitiesIntegration.Test\EquitiesIntegration.Test.csproj", "{2DD96C53-B5CB-4672-BADD-612B6A982A0A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3925C0EB-002F-49E8-8C20-39AEDCC32F46}"
+	ProjectSection(SolutionItems) = preProject
+		Equities Integration.readme.docx = Equities Integration.readme.docx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
