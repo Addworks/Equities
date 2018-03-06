@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equities", "Equities\Equities.csproj", "{6E70F7E5-A103-45AE-9669-8F0CF5AD6B04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquitiesIntegration", "EquitiesIntegration\EquitiesIntegration.csproj", "{96377BCD-1A8F-48B1-8979-AF9307342A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquitiesIntegration.Test", "EquitiesIntegration.Test\EquitiesIntegration.Test.csproj", "{2DD96C53-B5CB-4672-BADD-612B6A982A0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6E70F7E5-A103-45AE-9669-8F0CF5AD6B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E70F7E5-A103-45AE-9669-8F0CF5AD6B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E70F7E5-A103-45AE-9669-8F0CF5AD6B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6E70F7E5-A103-45AE-9669-8F0CF5AD6B04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96377BCD-1A8F-48B1-8979-AF9307342A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96377BCD-1A8F-48B1-8979-AF9307342A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96377BCD-1A8F-48B1-8979-AF9307342A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96377BCD-1A8F-48B1-8979-AF9307342A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD96C53-B5CB-4672-BADD-612B6A982A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD96C53-B5CB-4672-BADD-612B6A982A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD96C53-B5CB-4672-BADD-612B6A982A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD96C53-B5CB-4672-BADD-612B6A982A0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
